@@ -13,9 +13,6 @@ class Backer
   projects_that_backer_is_incharge_of.backers << self
 end
 
-  def back_project(project)
-    @backed_projects << Project.new(project)
-
-  end
+ 
 end
     
